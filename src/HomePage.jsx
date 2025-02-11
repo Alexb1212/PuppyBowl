@@ -12,7 +12,7 @@ const Homepage = () => {
       const jsonObj = await response.json();
       // console.log(jsonObj)
       const allPuppies = jsonObj.data.players
-      console.log(allPuppies)
+      // console.log(allPuppies)
 
       setPuppies(allPuppies);
 

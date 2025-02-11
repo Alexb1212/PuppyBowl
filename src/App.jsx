@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 
 import Homepage from './HomePage.jsx';
+import SinglePuppydetails from './PuppyDetails.jsx';
 
 const App = () => {
 
@@ -10,7 +11,7 @@ const App = () => {
 
       <Routes>
         <Route path='/' element={<Homepage />}/>
-        <Route path='/puppy-details/:id' element={<h2>Puppy Details</h2>}/>
+        <Route path='/puppy-details/:id' element={<SinglePuppydetails />}/>
       </Routes>
     </>
   )
