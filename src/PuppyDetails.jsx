@@ -34,7 +34,7 @@ const SinglePuppydetails = () => {
         })
       } */}
 
-      <Link to='/' id="home">Home Page</Link>
+      {/* <Link to='/' id="home">Home Page</Link> */}
     </>
   )
 }

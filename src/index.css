@@ -2,6 +2,11 @@ body {
   background-color: lightblue;
 }
 
-#home {
+/* #home {
   display: flex;
+} */
+
+#nav {
+  display: flex;
+  justify-content: space-evenly;
 }
